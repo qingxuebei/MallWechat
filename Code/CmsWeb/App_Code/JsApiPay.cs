@@ -167,8 +167,7 @@ public class JsApiPay
         data.SetValue("goods_tag", productName);
         data.SetValue("trade_type", "JSAPI");
         data.SetValue("openid", openid);
-
-        Log.Info(this.GetType().ToString(), data.ToString());
+        
 
         WxPayData result = WxPayApi.UnifiedOrder(data);
         if (!result.IsSet("appid") || !result.IsSet("prepay_id") || result.GetValue("prepay_id").ToString() == "")

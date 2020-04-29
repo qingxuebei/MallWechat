@@ -1112,7 +1112,7 @@ public partial class api_xcx_index : System.Web.UI.Page
             total_fee = ((int)(Convert.ToDecimal(orderEntity.price_sum) * 100)).ToString();
             jsApiPay.openid = openid;
             jsApiPay.orderid = orderEntity.order_num;
-            jsApiPay.productName = "链鲜社区生活馆";
+            jsApiPay.productName = "我的小店";
             jsApiPay.total_fee = int.Parse(total_fee);
         }
         else {//充值
@@ -1120,7 +1120,7 @@ public partial class api_xcx_index : System.Web.UI.Page
             total_fee = ((int)(Convert.ToDecimal(orderEntity.price) * 100)).ToString();
             jsApiPay.openid = openid;
             jsApiPay.orderid = orderEntity.orderNumber;
-            jsApiPay.productName = "链鲜社区生活馆";
+            jsApiPay.productName = "我的小店";
             jsApiPay.total_fee = int.Parse(total_fee);
         }
         //JSAPI支付预处理

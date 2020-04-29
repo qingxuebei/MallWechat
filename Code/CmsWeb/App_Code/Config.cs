@@ -18,23 +18,23 @@ public class WxPayConfig
     * KEY：商户支付密钥，参考开户邮件设置（必须配置）
     * APPSECRET：公众帐号secert（仅JSAPI支付的时候需要配置）
     */
-    public const string APPID = "wxf82d5ec0210f7c73";
-    public const string MCHID = "1502526021";
-    public const string KEY = "dbdc59e94851eb30815025260212804e";//19ace89a7acd6e14ac3c66b2852f14d6
-    public const string APPSECRET = "4eb475d2059f9744c706fe49ebec805b";//YOFbXGzn0i8ZH8UlfqH7D7LpHHCXd4CxNqZgLffI8v58GSpxntqnVOx5zJFrsM2efT6XH89Nr0WDpfZjcfYCHD05uteWUfHq6BG8zuyTAe4uQ39yKOKqwYwl6yhgKueb
+    public const string APPID = "wxe4c3ffea6c0f29d5";
+    public const string MCHID = "1565071331";
+    public const string KEY = "c4a955affce1e214fb1d36d0dd1a18ff";//19ace89a7acd6e14ac3c66b2852f14d6
+    public const string APPSECRET = "b8b433147df4f2d4172cc23cf97536b7";//YOFbXGzn0i8ZH8UlfqH7D7LpHHCXd4CxNqZgLffI8v58GSpxntqnVOx5zJFrsM2efT6XH89Nr0WDpfZjcfYCHD05uteWUfHq6BG8zuyTAe4uQ39yKOKqwYwl6yhgKueb
 
     //=======【证书路径设置】===================================== 
     /* 证书路径,注意应该填写绝对路径（仅退款、撤销订单时需要）
     */
-    public const string SSLCERT_PATH = "cert/apiclient_cert.p12";
-    public const string SSLCERT_PASSWORD = "12345_8888";
+    public const string SSLCERT_PATH = "C:\\Cert\\apiclient_cert.p12";
+    public const string SSLCERT_PASSWORD = "";
 
 
 
     //=======【支付结果通知url】===================================== 
     /* 支付结果通知回调url，用于商户接收支付结果
     */
-    public const string NOTIFY_URL = "http://lxshenghuo.sulel.com/api/wxpay/ResultNotifyPage.aspx";
+    public const string NOTIFY_URL = "http://31qm.com/api/wxpay/ResultNotifyPage.aspx";
 
     //=======【商户系统后台机器IP】===================================== 
     /* 此参数可手动配置也可在程序中自动获取

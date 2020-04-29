@@ -1,11 +1,11 @@
 <!--分类-->
 <view class='box'>
   <view class='top'>
-    <view class='location'>
+    <!--<view class='location'>
       <image src='../images/syico1.png' class='dwico'></image>
       <text>泰禹家园店</text>
       <image src='../images/syico2.png' class='rightico'></image>
-    </view>
+    </view>-->
     <view class='search'>
       <image src='../images/ssico.png'></image>
        <input type='text' placeholder='搜索商品名称' value="{{word}}"   bindinput="searchActiveChangeinput" bindblur='searchSubmit'></input>

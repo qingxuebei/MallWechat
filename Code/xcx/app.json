@@ -26,7 +26,7 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "链鲜生活配送",
+    "navigationBarTitleText": "我的小店",
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json"

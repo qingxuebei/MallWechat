@@ -1,11 +1,11 @@
 <!--index.wxml-->
 <view class='box'>
   <view class='top'>
-    <view class='location'>
+    <!--<view class='location'>
       <image src='../images/syico1.png' class='dwico'></image>
       <text>泰禹家园店</text>
       <image src='../images/syico2.png' class='rightico'></image>
-    </view>
+    </view>-->
     <view class='search'>
       <image src='../images/ssico.png'></image>
       <input type='text' placeholder='搜索商品名称' value="{{word}}"   bindinput="searchActiveChangeinput" bindblur='searchSubmit'></input>
@@ -144,9 +144,8 @@
    </block>
   </view>
   <view class='zhichi'>
-    <image src='../images/zclogo.png' mode='widthFix'></image>
-    由祥云时代提供技术支持
+    <!--<image src='../images/zclogo.png' mode='widthFix'></image>-->
+    由飞时科技提供技术支持(VX：beike2010)
   </view>
   <include src="../footer/footer.wxml"/>
 </view>
-

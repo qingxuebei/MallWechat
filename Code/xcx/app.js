@@ -102,7 +102,7 @@ App({
     userInfo: null,
     word: '',
     typeId:'',
-    apiUrl: 'https://lxshenghuo.sulel.com/api/xcx/index.aspx',
-    hostUrl: 'https://lxshenghuo.sulel.com',
+    apiUrl: 'https://31qm.com/api/xcx/index.aspx',
+    hostUrl: 'https://31qm.com',
   }
 })
